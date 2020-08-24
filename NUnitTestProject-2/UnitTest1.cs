@@ -26,7 +26,7 @@ namespace Unit.Test.ErrorCheck
             IWebElement Next = driver.FindElement(By.ClassName("btn"));
             Next.Click();
 
-            IWebElement SubTotal = driver.FindElement(By.Id("Elements_2__Value-error"));  // Checking the visible error         
+            IWebElement SubTotal = driver.FindElement(By.Id("Elements_2__Value-error111111112222"));  // Checking the visible error         
             Assert.AreEqual("This field is required.", SubTotal.Text);
         }
     }
